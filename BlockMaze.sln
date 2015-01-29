@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BlockMaze", "BlockMaze\BlockMaze.shproj", "{4D8D9C9C-BB87-437E-9FCE-03DF4112853C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockMaze.Android", "BlockMaze.Android\BlockMaze.Android.csproj", "{F13BB56A-1288-4A2E-95F9-853B5703FF09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F13BB56A-1288-4A2E-95F9-853B5703FF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13BB56A-1288-4A2E-95F9-853B5703FF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13BB56A-1288-4A2E-95F9-853B5703FF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13BB56A-1288-4A2E-95F9-853B5703FF09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
